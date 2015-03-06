@@ -1,0 +1,14 @@
+# jemdoc: menu{MENU}{research.html}
+= Research
+
+Various cell types in the human body contain an identical copy of the genome but express a distinct set of genes. 
+The Vahedi laboratory endeavors to understand how does a genome guide a limited set of genes to be expressed at different levels 
+in distinct cell types particularly in the immune system. Overwhelming evidence suggests that epigenomics instructs the unique gene 
+expression program in each cell type. Epigenomics refers to packaging of DNA into chromatin and represents a highly plastic vehicle 
+for specifying cellular regulatory states. The emergence of high throughput genomic technologies is providing biology with an explosion of 
+new experimental data, quantitatively measuring various aspects of epigenome at a genome-wide scale. 
+The Vahedi laboratory develops computational methods to integrate diverse high throughput data and unravel a holistic systems level view of cells in the immune system.
+
+Specific research directions are: (1) to delineate unique genomic regions (e.g. super-enhancers) from histone modification measurements using machine learning methods,
+(2) to determine the impact of inflammatory bowel disease (IBD) genetic variants within enhancers of immune cells, (3) to reconstruct ontogenic lineage relationship during haematopoiesis using epigenomics measurements.
+
