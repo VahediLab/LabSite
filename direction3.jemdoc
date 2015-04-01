@@ -11,20 +11,17 @@ We will develop computational methods to
 
 == Relevant Publications
 
-- G. Vahedi, B. Faryabi, J.-F. Chamberland, A. Datta, E. R. Dougherty, "Sampling-
-Rate-Dependent Probabilistic Boolean Networks", /Journal of Theoretical Biology/, vol.
-261, no. 4, pp. 463-477, December 2009.
 
-- G. Vahedi, B. Faryabi, J.-F. Chamberland, A. Datta, and E. R. Dougherty, "Optimal
-Intervention Strategies for Cyclic Therapeutic Methods", /IEEE Transactions on Biomedical Engineering/, Vol. 56, No. 2, 281-291, February 2009.
+- *Vahedi, G.*,  Ivanov, I. V.,  Dougherty, E. R., "Inference of Boolean networks under constraint on bidirectional gene relationships". /IET Syst Biol/, 3(3): 191-202, 2009.
 
-- G. Vahedi, I. Ivanov, E. R. Dougherty, "Inference of Boolean Networks under Constraint
-on Bidirectional Gene Relationships", /Journal of IET Systems Biology/, Vol. 3, No. 3,
-191202, May 2009.
+- *Vahedi, G.*,  Faryabi, B.,  Chamberland, J. F.,  Datta, A.,  Dougherty, E. R., [http://www.sciencedirect.com/science/article/pii/S0022519309003889 
+"Sampling-rate-dependent probabilistic Boolean networks"]. /J Theor Biol/, 261(4): 540-7, 2009.
 
+- *Vahedi, G.*,  Faryabi, B.,  Chamberland, J. F.,  Datta, A.,  Dougherty, E. R., 
+[http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4599234 
+"Optimal intervention strategies for cyclic therapeutic methods"],
+/IEEE Trans Biomed Eng/, 56(2): 281-91, 2009.
 
-- G. Vahedi, B. Faryabi, J.-F. Chamberland, A. Datta, and E. R. Dougherty, "Intervention
-in Gene Regulatory Networks via a Stationary Mean-First-Passage-Time Control Policy",
-/IEEE Transactions on Biomedical Engineering/, Vol. 55, No. 10, 2319 - 2331, October
-2008.
-
+- *Vahedi, G.*,  Faryabi, B.,  Chamberland, J. F.,  Datta, A.,  Dougherty, E. R., [http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4524953 
+"Intervention in gene regulatory networks via a stationary mean-first-passage-time control policy"],
+/IEEE Trans Biomed Eng/, 55(10): 2319-31, 2008.
