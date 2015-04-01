@@ -1,0 +1,479 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% Simple LaTeX CV Template %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% NOTE: If you find that it says                                     %%
+%%                                                                    %%
+%%                           1 of ??                                  %%
+%%                                                                    %%
+%% at the bottom of your first page, this means that the AUX file     %%
+%% was not available when you ran LaTeX on this source. Simply RERUN  %%
+%% LaTeX to get the ``??'' replaced with the number of the last page  %%
+%% of the document. The AUX file will be generated on the first run   %%
+%% of LaTeX and used on the second run to fill in all of the          %%
+%% references.                                                        %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Don't like 10pt? Try 11pt or 12pt
+\documentclass[10pt]{article}
+
+% The automated optical recognition software used to digitize resume
+% information works best with fonts that do not have serifs. This
+% command uses a sans serif font throughout. Uncomment both lines (or at
+% least the second) to restore a Roman font (i.e., a font with serifs).
+%\usepackage{times}
+%\renewcommand{\familydefault}{\sfdefault}
+
+% This is a helpful package that puts math inside length specifications
+\usepackage{calc}
+\usepackage{comment}
+
+% Simpler bibsection for CV sections
+% (thanks to natbib for inspiration)
+\makeatletter
+\newlength{\bibhang}
+\setlength{\bibhang}{1em} %1em}
+\newlength{\bibsep}
+ {\@listi \global\bibsep\itemsep \global\advance\bibsep by\parsep}
+\newenvironment{bibsection}%
+        {\begin{enumerate}{}{%
+%        {\begin{list}{}{%
+       \setlength{\leftmargin}{\bibhang}%
+       \setlength{\itemindent}{-\leftmargin}%
+       \setlength{\itemsep}{\bibsep}%
+       \setlength{\parsep}{\z@}%
+        \setlength{\partopsep}{0pt}%
+        \setlength{\topsep}{0pt}}}
+        {\end{enumerate}\vspace{-0.6\baselineskip}}
+%        {\end{list}\vspace{-.6\baselineskip}}
+\makeatother
+
+% Layout: Puts the section titles on left side of page
+\reversemarginpar
+
+%
+%         PAPER SIZE, PAGE NUMBER, AND DOCUMENT LAYOUT NOTES:
+%
+% The next \usepackage line changes the layout for CV style section
+% headings as marginal notes. It also sets up the paper size as either
+% letter or A4. By default, letter was used. If A4 paper is desired,
+% comment out the letterpaper lines and uncomment the a4paper lines.
+%
+% As you can see, the margin widths and section title widths can be
+% easily adjusted.
+%
+% ALSO: Notice that the includefoot option can be commented OUT in order
+% to put the PAGE NUMBER *IN* the bottom margin. This will make the
+% effective text area larger.
+%
+% IF YOU WISH TO REMOVE THE ``of LASTPAGE'' next to each page number,
+% see the note about the +LP and -LP lines below. Comment out the +LP
+% and uncomment the -LP.
+%
+% IF YOU WISH TO REMOVE PAGE NUMBERS, be sure that the includefoot line
+% is uncommented and ALSO uncomment the \pagestyle{empty} a few lines
+% below.
+%
+
+%% Use these lines for letter-sized paper
+\usepackage[paper=letterpaper,
+           % includefoot, % Uncomment to put page number above margin
+            marginparwidth=0.9in,     % Length of section titles
+            marginparsep=.05in,       % Space between titles and text
+            margin=0.95in,               % 1 inch margins
+            includemp]{geometry}
+
+%% Use these lines for A4-sized paper
+%\usepackage[paper=a4paper,
+%            %includefoot, % Uncomment to put page number above margin
+%            marginparwidth=30.5mm,    % Length of section titles
+%            marginparsep=1.5mm,       % Space between titles and text
+%            margin=25mm,              % 25mm margins
+%            includemp]{geometry}
+
+%% More layout: Get rid of indenting throughout entire document
+\setlength{\parindent}{0in}
+
+\usepackage[shortlabels]{enumitem}
+
+%% Reference the last page in the page number
+%
+% NOTE: comment the +LP line and uncomment the -LP line to have page
+%       numbers without the ``of ##'' last page reference)
+%
+% NOTE: uncomment the \pagestyle{empty} line to get rid of all page
+%       numbers (make sure includefoot is commented out above)
+%
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+%\pagestyle{empty}      % Uncomment this to get rid of page numbers
+\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfootoffset{\marginparsep+\marginparwidth}
+\newlength{\footpageshift}
+\setlength{\footpageshift}
+          {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+\lfoot{\hspace{\footpageshift}%
+       \parbox{4in}{\, \hfill %
+                    \arabic{page} of \protect\pageref*{LastPage} % +LP
+%                    \arabic{page}                               % -LP
+                    \hfill \,}}
+
+% Finally, give us PDF bookmarks
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The title (name) with a horizontal rule under it
+% (optional argument typesets an object right-justified across from name
+%  as well)
+%
+% Usage: \makeheading{name}
+%        OR
+%        \makeheading[right_object]{name}
+%
+% Place at top of document. It should be the first thing.
+% If ``right_object'' is provided in the square-braced optional
+% argument, it will be right justified on the same line as ``name'' at
+% the top of the CV. For example:
+%
+%       \makeheading[\emph{Curriculum vitae}]{Your Name}
+%
+% will put an emphasized ``Curriculum vitae'' at the top of the document
+% as a title. Likewise, a picture could be included:
+%
+%   \makeheading[\includegraphics[height=1.5in]{my_picutre}]{Your Name}
+%
+% the picture will be flush right across from the name.
+\newcommand{\makeheading}[2][]%
+        {\hspace*{-\marginparsep minus \marginparwidth}%
+         \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+             {\large \bfseries #2 \hfill #1}\\[-0.15\baselineskip]%
+                 \rule{\columnwidth}{1pt}%
+         \end{minipage}}
+
+% The section headings
+%
+% Usage: \section{section name}
+\renewcommand{\section}[1]{\pagebreak[3]%
+    \hyphenpenalty=10000%
+    \vspace{1.3\baselineskip}%
+    \phantomsection\addcontentsline{toc}{section}{#1}%
+    \noindent\llap{\scshape\smash{\parbox[t]{\marginparwidth}{\raggedright #1}}}%
+    \vspace{-\baselineskip}\par}
+
+% An itemize-style list with lots of space between items
+\newenvironment{outerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1,leftmargin=*]}{\end{itemize}%
+         \vspace{-.6\baselineskip}}
+
+% An environment IDENTICAL to outerlist that has better pre-list spacing
+% when used as the first thing in a \section
+\newenvironment{lonelist}[1][\enskip\textbullet]%
+        {\begin{list}{#1}{%
+        \setlength{\partopsep}{0pt}%
+        \setlength{\topsep}{0pt}}}
+        {\end{list}\vspace{-.6\baselineskip}}
+
+% An itemize-style list with little space between items
+\newenvironment{innerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt]}
+        {\end{itemize}}
+
+% An environment IDENTICAL to innerlist that has better pre-list spacing
+% when used as the first thing in a \section
+\newenvironment{loneinnerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt]}
+        {\end{itemize}\vspace{-.6\baselineskip}}
+
+% To add some paragraph space between lines.
+% This also tells LaTeX to preferably break a page on one of these gaps
+% if there is a needed pagebreak nearby.
+\newcommand{\blankline}{\quad\pagebreak[3]}
+\newcommand{\halfblankline}{\quad\vspace{-0.5\baselineskip}\pagebreak[3]}
+
+% Uses hyperref to link DOI
+\newcommand\doilink[1]{\href{http://dx.doi.org/#1}{#1}}
+\newcommand\doi[1]{doi:\doilink{#1}}
+
+% For \url{SOME_URL}, links SOME_URL to the url SOME_URL
+\providecommand*\url[1]{\href{#1}{#1}}
+% Same as above, but pretty-prints SOME_URL in teletype fixed-width font
+\renewcommand*\url[1]{\href{#1}{\texttt{#1}}}
+
+% For \email{ADDRESS}, links ADDRESS to the url mailto:ADDRESS
+\providecommand*\email[1]{\href{mailto:#1}{#1}}
+% Same as above, but pretty-prints ADDRESS in teletype fixed-width font
+%\renewcommand*\email[1]{\href{mailto:#1}{\texttt{#1}}}
+
+%\providecommand\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+%    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+%\providecommand\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+%    \TeX}}
+\providecommand\BibTeX{{B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    \TeX}}
+\providecommand\Matlab{\textsc{Matlab}}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\makeheading{Golnaz Vahedi}
+
+\section{Contact Information}
+
+% NOTE: Mind where the & separators and \\ breaks are in the following
+%       table.
+%
+% ALSO: \rcollength is the width of the right column of the table
+%       (adjust it to your liking; default is 1.85in).
+%
+\newlength{\rcollength}\setlength{\rcollength}{1.4in}%
+%
+\begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
+%\href{http://www.cse.osu.edu/}%
+%     {Department of Computer Science and Engineering} & \\
+%\href{http://www.osu.edu/}{The Ohio State University}
+%8151 33rd Ave S Unit 409   & 507-304-1668 \\
+%Bloomington, MN  55425     & \email{quic0038@umn.edu}\\
+4801 Fairmont Ave, Unit 210 & {\it Cell:}  (832) 725-0406\\
+Bethesda, MD, 20814   &    \email{vahedig@mail.nih.gov}  \\          
+
+
+\end{tabular}
+
+%\section{Objective}
+
+%Insert text here if you want to
+%\begin{innerlist}
+%\item More information and auxiliary documents can be found at\\\url{http://www.tedpavlic.com/facjobsearch/}
+%\end{innerlist}
+
+%\section{Research Interests}
+%Bayesian modeling, spatiotemporal modeling, spatial data analysis, longitudinal data analysis, computing
+
+\section{Education}
+
+{\textbf{National Institutes of Health}},
+Bethesda, MD
+\begin{outerlist}
+
+\item[] Postdoctoral Training,
+             2009-2015
+        \begin{innerlist}
+          \item Mentor:
+                     {John J. O'Shea, M.D.} 
+        \end{innerlist}
+\end{outerlist}
+%----------------------------------------------------------------
+\vspace{.1in}
+{\textbf{Texas A\&M University}},
+College Station, TX
+\begin{outerlist}
+\item[] Ph.D.,
+                  {Electrical Engineering}, 2006-2009
+        \begin{innerlist}
+          \item Mentors:
+                     {Edward R. Dougherty, Ph.D.} 
+        \end{innerlist}
+\end{outerlist}
+%----------------------------------------------------------------
+\vspace{.1in}
+{\textbf{University of Alberta}},
+Edmonton, Alberta
+\begin{outerlist}
+\item[] M.Sc.,
+                  {Electrical Engineering}, 2002-2005
+\end{outerlist}
+%----------------------------------------------------------------
+%----------------------------------------------------------------
+\vspace{.1in}
+{\textbf{Sharif University of Technology}},
+Tehran, Iran
+\begin{outerlist}
+\item[] B.Sc.,
+                  {Electrical Engineering}, 1996-2001
+\end{outerlist}
+%----------------------------------------------------------------
+\section{Awards}
+
+\begin{innerlist}
+\item NIH K22 Career Transition Award (NIAID, {\textbf{Impact Score=10}}), 2014.
+\vspace{0.1in}
+\item NIH Director Award, 2013.
+\vspace{0.1in}
+\item  Philip Godfrey Memorial Lecture, UK, 2013.
+\vspace{0.1in}
+\item Best Poster Award, NIAMS retreat, NIH, 2010.
+\vspace{0.1in}
+\item Texas A\&M Student Research Award, 2007.
+\vspace{0.1in}
+\item  Winner of Innovation-Research Contest, Association of Health Technologies Industry, Canada, 2004.
+
+\end{innerlist}
+
+\section{Original Publications}
+*equal contributing authors
+\begin{bibsection}
+  \item {{\bf{G. Vahedi}}}, Y. Kanno, Y. Furumoto, K. Jiang, S. Parker, M. Erdos, S. Davis, R. Roychoudhuri, N. Restifo, M. Gadina, Z. Tang, Y. Ruan, F.S. Collins, V. Sartorelli, JJ. O'Shea, ``Super-enhancers Delineate Disease-Associated Regulatory Nodes in T Cells'',  \underline{{\emph{Nature}}}, February 2015. 
+
+\item R. Roychoudhuri, K. Hirahara, K. Mousavi, D. Clever, Z. Yu, M. Bonelli, G. Sciume, H. Zare,  {{\bf{G. Vahedi}}}, B. Dema, C. Klebanoff, H. Liu, M. Rao, P. Muranski, J. Crompton, G. Punkosdy, V. Hoffmann, H. Takahashi, E. Wang, F. Marincola, L. Gattinoni, J. Rivera, V. Sartorelli, Y. Kanno, A. Nakamura, A. Muto, K. Igarashi, JJ. O'Shea*, NP. Restifo*, ``Bach2 Represses Effector Programmes to Stabilize Treg-mediated Immune Homeostasis'',   \underline{{\emph{Nature}}}, June 2013. 
+
+\item {{\bf{G. Vahedi}}}, H. Takahashi, S. Nakayamada, HW. Sun, V. Sartorelli, Y. Kanno, JJ. O'Shea,
+``STATs Shape the Active Enhancer Landscape of T Cell Populations'',   \underline{\emph{Cell}}, November 2012.
+
+\item G. Sciume, K. Hirahara, H. Takahashi, A. Laurence, AV Villarino, KL Singleton, SP Spencer, C. Wilhelm C, AC Poholek, {{\bf{G. Vahedi}}}, Y. Kanno Y, Y. Belkaid,  JJ. O'Shea, ``Distinct Requirements for T-bet in Gut Innate Lymphoid Cells'', \\  \underline{\emph{Journal of Experimental Medicine}}. December 2012.
+
+\item  K. Hirahara, K. Ghoreschi, XP. Yang, H. Takahashi, A. Laurence, {{\bf{G. Vahedi}}}, Y. Kanno, JJ. O'Shea,\\``Interleukin-27 Priming of T Cells Controls IL-17 Production In-trans via Induction of the Ligand PD-L1'',   \underline{\emph{Immunity}}, July 2012.
+
+\item S. Nakayamada S, Y. Kanno, H. Takahashi, D. Jankovic, KT. Lu, TA. Johnson, HW Sun, {{\bf{G. Vahedi}}}, O. Hakim, R. Handon, PL. Schwartzberg, GL. Hager, JJ O'Shea, ``Early Th1 Cell Differentiation is Marked by a Tfh Cell-like Transition'',  \underline{\emph{Immunity}}, Vol. 35, 919-31, December 2011.
+
+\item XP. Yang, K. Ghoreschi, SM. Steward-Tharp, J. Rodriguez-Canales, J. Zhu, JR. Grainger, K. Hirahara, HW. Sun, L. Wei, {{\bf{G. Vahedi}}}, Y. Kanno, JJ. O'Shea, A. Laurence, ``Opposing Regulation of the Locus Encoding IL-17 Through Direct, Reciprocal Actions of STAT3 and STAT5'', \underline {\emph{Nature Immunology}}, No. 3, 247-54, March 2011.
+
+\item  L. Wei*, {\bf{G. Vahedi*}}, HW. Sun, WT Watford, H. Takatori, HL. Ramos, H. Takahashi, J. Liang, G. Gutierrez-Cruz, C. Zang, W. Peng, JJ. O'Shea, Y. Kanno, ``Discrete Roles of STAT4 and STAT6 Transcription Factors in Tuning Epigenetic Modifications and Transcription during T Helper Cell Differentiation'', \underline {\emph{Immunity}}, Vol. 32, No. 6, 840-851, June 2010. \underline{*equal contributing authors}
+
+\item L. Durant, WT. Watford, HL. Ramos, A. Laurence, {\bf{G. Vahedi}}, L. Wei, H. Takahashi, HW. Sun, Y. Kanno, F. Powrie, JJ. O'Shea, ``Diverse Targets of the Transcription Factor STAT3 Contribute to T Cell Pathogenicity and Homeostasis'',  {\emph{Immunity}}, Vol. 32, No. 5, 605-615, May 2010.
+
+\item {\bf{G. Vahedi}}, B. Faryabi, J.-F. Chamberland, A. Datta, E. R. Dougherty, ``Sampling-Rate-Dependent Probabilistic Boolean Networks'',  \underline{\emph{Journal of Theoretical Biology}}, vol. 261, no. 4, pp. 463-477, December 2009.
+
+\item {\bf{G. Vahedi}}, B. Faryabi, J.-F. Chamberland, A. Datta, and E. R. Dougherty, ``Optimal Intervention Strategies for Cyclic Therapeutic Methods'',\\ \underline {\emph{IEEE Transactions on Biomedical Engineering}}, Vol. 56, No. 2, 281-291, February 2009.
+
+\item {\bf{G. Vahedi}}, I. Ivanov, E. R. Dougherty, ``Inference of Boolean Networks under Constraint on Bidirectional Gene Relationships'',  \underline{\emph{Journal of IET Systems Biology}} , Vol. 3, No. 3, 191202, May 2009.
+
+\item B. Faryabi, {\bf{G. Vahedi}}, J.-F Chamberland, A. Datta, and E. R. Dougherty, ``Intervention in Context- Sensitive Probabilistic Boolean Networks Revisited'',  \underline{\emph{EURASIP Bioinformatics}}, Vol. 2009.
+
+\item B. Faryabi, {\bf{G. Vahedi}}, J.-F Chamberland, A. Datta, and E. R. Dougherty, ``Optimal Constrained Stationary Intervention in Gene Regulatory Networks'',\\ \underline {\emph{EURASIP Bioinformatics}}, Vol. 2008.
+
+\item {\bf{G. Vahedi}}, B. Faryabi, J.-F. Chamberland, A. Datta, and E. R. Dougherty, ``Intervention in Gene Regulatory Networks via a Stationary Mean-First-Passage-Time Control Policy'', \\ \underline{\emph{IEEE Transactions on Biomedical Engineering}}, Vol. 55, No. 10, 2319 - 2331, October 2008.
+
+\item B. Faryabi, J.-F. Chamberland, {\bf{G. Vahedi}}, A. Datta, E. R. Dougherty, ``Optimal Intervention in Asynchronous Genetic Regulatory Networks'', \\\underline {\emph{IEEE Selected Topics in Signal Processing}}, Vol. 2, No. 3, 412-423, June, 2008.
+
+\item {\bf{G. Vahedi}}, K. Kaler, C. J. Backhouse, ``An Integrated Method for Mutation Detection Using On-chip Sample Preparation, Single-stranded Conformation Polymorphism, and Heteroduplex Analysis'', \underline {\emph{Electrophoresis}}, Vol. 25, 2346-2356, July 2004.
+\end{bibsection}
+
+
+\section{Review Articles}
+\vspace{-.1275in}
+\begin{bibsection}
+\item {{\bf{G. Vahedi}}}, A.C. Richard, JJ. O'Shea, ``Enhancing the Understanding of Asthma.'', \\ \underline{{\emph{Nature Immunology}}}, August 2014. 
+
+
+\item {{\bf{G. Vahedi}}}, Y. Kanno, V. Sartorelli, JJ. O'Shea, ``Transcription Factors and CD4+ T Cells Seeking Identity: Masters, Minions, Setters and Spikers'',  \underline{{\emph{Immunology}}}, April 2013. 
+
+\item {{\bf{G. Vahedi}}}, AC. Poholek, TW. Hand, A. Laurence, Y. Kanno, JJ. O'Shea, K. Hirahara, ``Helper T Cell Identity and Evolution of Differential Transcriptomes and Epigenomes'',\newline \underline{{\emph{Immunological Reviews}}}, Vol. ~252, March 2013. 
+
+\item Y. Kanno, {{\bf{G. Vahedi}}}, K. Hirahara, K. Singleton JJ. O'Shea, ``Transcriptional and Epigenetic Control of T helper Cell Specification: Molecular Mechanisms Underlying Commitment and Plasticity'',   \underline{\emph{Annual Review of Immunology}}, Vol. 30, April 2012.
+
+\item K. Hirahara*, {{\bf{G. Vahedi*}}}, K. Ghoreschi, XP. Yang, S. Nakayamada, Y. Kanno, JJ. O'Shea, A Laurence, ``Helper T-cell Differentiation and Plasticity: Insights from Epigenetics'', \underline {\emph{Immunology}}, Vol. 134, 235-245, November 2011.
+
+\item JJ. O'Shea, R. Lahesmaa, {{\bf{G. Vahedi}}}, A Laurence, Y. Kanno, ``Genomic Views of STAT Function in CD4+ T Helper Cell Differentiation'',  \underline{\emph{Nature Review Immunology}}, Vol. 4, 239-250, April 2011.
+
+\item B. Faryabi, {\bf{G. Vahedi}}, A. Datta, J.-F. Chamberland, E. R. Dougherty, ``Recent Advances in the Control of Markovian Gene Regulatory Networks'', \underline{\emph{Current Genomics}}, vol. 10, no. 7, pp. 540-547, November 2009.
+
+\end{bibsection}
+
+
+
+
+\section{Invited Talks}
+\begin{innerlist}
+\item  Children's Research Institute's International Immunotherapy Conference, Seattle, September 2015.
+\vspace{0.1in}
+\item  Feinstein Institute for Medical Research, New York, April 2014.
+\vspace{0.1in}
+\item  Philip Godfrey Memorial Lecture, Biochemical Society, University of York, UK, July 2013.
+\vspace{0.005in}
+\item Institute for Immunology, Perelman School of Medicine, University of Pennsylvania, June 2013.
+\vspace{0.1in}
+\item Bioinformatics Seminar, Electrical Engineering Department, Virginia Tech University, Arlington, VA, February 2013.
+\vspace{0.1in}
+\item IEEE Workshop on Genomic Signal Processing, Arlington, VA, December 2012.
+\vspace{0.1in}
+\item NIAMS Retreat, NIH, Bethesda, MD, June 2012.
+\vspace{0.1in}
+\item NIH Immunology Interest Group (IIG) Retreat,
+Columbia, MD, September 2011.
+\vspace{0.1in}	
+\item Electrical Engineering Seminar,
+University of Texas at Dallas, April 2009.
+\end{innerlist}
+
+%\section{Professional Services}
+%\begin{innerlist}
+%\item Associate Faculty Member, Faculty of 1000, Leukocyte Signaling \& Gene Expression.
+%\vspace{0.05in}
+%\item Reviewer:
+%\vspace{0.05in}
+%\begin{list1}
+%\item [] Blood
+%\vspace{0.05in}
+%\item[] European Journal of Immunology
+%\vspace{0.05in}
+%\item[] IEEE Transactions in Biomedical Engineering
+%\vspace{0.05in}
+%\item[] IET Journal of Systems Biology
+%\vspace{0.05in}
+%\item[] IEEE Workshop on Genomic Signal Processing and Statistics
+%\end{list1}
+%\vspace{0.1in}
+%\item Technical Committee: 
+%\vspace{0.05in}
+%\begin{list1}
+%\item [] IEEE Workshop on Genomic Signal Processing and Statistics
+%\vspace{0.05in}
+%\item [] Thesis Committee Member: Satish Ganakammal, Indiana University-Purdue University
+%\vspace{0.05in}
+%\item [] NIH Summer Student Mentor: Antoine Bosselut
+%\end{innerlist}
+
+
+\section{Teaching Experience}
+\begin{innerlist}
+\item Guest Lecturer, ``Systems Biology of Immune Cells'', Immunology 507, University of Pennsylvania, March 2013, February 2014.
+\vspace{0.1in}
+\item HHMI-sponsored Molecular Biology Workshop for DC High School Teachers, March 2013.
+\vspace{0.001in}
+\item Guest Lecturer, NIH-University of Pennsylvania Bioinformatics minicourse, 2013.
+\vspace{0.1in}
+\item Teaching Assistant, Electrical Circuit II, University of Alberta, 2003.
+\vspace{0.1in}
+\item Teaching Assistant, Microprocessor, University of Alberta, 2002.
+\end{innerlist}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% End CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------%
+% The following is copyright and licensing information for
+% redistribution of this LaTeX source code; it also includes a liability
+% statement. If this source code is not being redistributed to others,
+% it may be omitted. It has no effect on the function of the above code.
+%----------------------------------------------------------------------%
+% Copyright (c) 2007, 2008, 2009, 2010, 2011 by Theodore P. Pavlic
+%
+% Unless otherwise expressly stated, this work is licensed under the
+% Creative Commons Attribution-Noncommercial 3.0 United States License. To
+% view a copy of this license, visit
+% http://creativecommons.org/licenses/by-nc/3.0/us/ or send a letter to
+% Creative Commons, 171 Second Street, Suite 300, San Francisco,
+% California, 94105, USA.
+%
+% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+% OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+% MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+% IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+% CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+% TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+% SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+%----------------------------------------------------------------------%

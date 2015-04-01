@@ -1,12 +1,13 @@
 # jemdoc: menu{MENU}{index.html}
-= Dr. Golnaz Vahedi
+= Home
 
 ~~~
 {}{img_left}{DSC_0120.JPG}{Golnaz Vahedi}{170}{175}
 Assistant Professor \n [http://www.med.upenn.edu/genetics/ Department of Genetics] \n
 [http://www.med.upenn.edu/ifi/ Institute for Immunology] \n
-[http://www.med.upenn.edu/ Perelman School of Medicine, University of Pennsylvania]\n
-[vahedi@mail.med.upenn.edu]
+[http://www.med.upenn.edu/ Perelman School of Medicine]\n
+[http://www.upenn.edu/ University of Pennsylvania]\n
+vahedi at mail.med.upenn.edu
 ~~~
 
 ~~~
@@ -17,29 +18,35 @@ data-show-count="false">Follow @golnaz_v</a>
 type="text/javascript"></script>
 ~~~
 
+{{<a href="https://www.linkedin.com/pub/golnaz-vahedi/4/674/5a5">
+<img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="120" height="25" border="0" alt="LinkedIn"></a>}}
+
 == Welcome
 
 I am an Assistant Professor at the [http://www.med.upenn.edu/genetics/ Department of Genetics] and a member of the [http://www.med.upenn.edu/ifi/ Institute for Immunology] at the [http://www.med.upenn.edu/ Perelman School of Medicine, University of Pennsylvania]. 
 In May 2015, I started my research group after five years of research training with [http://www.niams.nih.gov/research/ongoing_research/branch_lab/Molecular_Immunology_and_Inflammation/default.asp Dr. John O'Shea] 
 at the [http://irp.nih.gov/ NIH]. My lab endeavors to understand the biological circuits that underlie cellular processes in immune cells and uncover the molecular basis of major inherited diseases mediated by immune cells. 
-The advent of high throughput genomic and proteomic technologies provides immunologists with tremendous amount of data. In the face of such a data avalanche, we will develop computational
-methods to integrate diverse high throughput data and unravel systems level view of the immune system. 
+The advent of high throughput genomic and proteomic technologies provides immunologists with a tremendous amount of data. In the face of such a data avalanche, we will develop computational
+methods to integrate this diverse high throughput data and unravel the basic principles of immunity from a systems level view. 
 
-== Selected Publications 
+== Research Highlights 
 
-- G. Vahedi, Y. Kanno, Y. Furumoto, K. Jiang, S. Parker, M. Erdos, S. Davis, R.
+~~~
+{}{img_left}{nature.jpg}{}{80}{80}
+- *G. Vahedi*, Y. Kanno, Y. Furumoto, K. Jiang, S. Parker, M. Erdos, S. Davis, R.
 Roychoudhuri, N. Restifo, M. Gadina, Z. Tang, Y. Ruan, F.S. Collins, V. Sartorelli, JJ.
 O'Shea, [http://www.nature.com/nature/journal/vaop/ncurrent/full/nature14154.html "Super-enhancers Delineate Disease-Associated Regulatory Nodes in T Cells"],
 /Nature/, February 2015.
+~~~
 
-- G. Vahedi, AC. Poholek, TW. Hand, A. Laurence, Y. Kanno, JJ. O'Shea, K. Hirahara,
-[http://onlinelibrary.wiley.com/doi/10.1111/imr.12037/abstract "Helper T Cell Identity and Evolution of Differential Transcriptomes and Epigenomes"], /Immunological Reviews/, March 2013.
-
-
-- G. Vahedi, H. Takahashi, S. Nakayamada, HW. Sun, V. Sartorelli, Y. Kanno, JJ.
+~~~
+{}{img_left}{cell.jpeg}{}{80}{80}
+- *G. Vahedi*, H. Takahashi, S. Nakayamada, HW. Sun, V. Sartorelli, Y. Kanno, JJ.
 O'Shea, [http://www.cell.com/cell/abstract/S0092-8674(12)01297-4 "STATs Shape the Active Enhancer Landscape of T Cell Populations"], /Cell/,
 November 2012.
+~~~
 
 ~~~
 [ads.html Multiple student and postdoctoral positions are available.] 
 ~~~
+

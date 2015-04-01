@@ -2,13 +2,26 @@
 = Research
 
 Various cell types in the human body contain an identical copy of the genome but express a distinct set of genes. 
-The Vahedi laboratory endeavors to understand how does a genome guide a limited set of genes to be expressed at different levels 
+The Vahedi laboratory endeavors to understand how a genome guides a limited set of genes to be expressed at different levels 
 in distinct cell types particularly in the immune system. Overwhelming evidence suggests that epigenomics instructs the unique gene 
 expression program in each cell type. Epigenomics refers to packaging of DNA into chromatin and represents a highly plastic vehicle 
 for specifying cellular regulatory states. The emergence of high throughput genomic technologies is providing biology with an explosion of 
 new experimental data, quantitatively measuring various aspects of epigenome at a genome-wide scale. 
-The Vahedi laboratory develops computational methods to integrate diverse high throughput data and unravel a holistic systems level view of cells in the immune system.
+Our laboratory develops computational methods to integrate diverse high throughput data and unravel the basic principles of immunity from a systems level view.
 
-Specific research directions are: (1) to delineate unique genomic regions (e.g. super-enhancers) from histone modification measurements using machine learning methods,
-(2) to determine the impact of inflammatory bowel disease (IBD) genetic variants within enhancers of immune cells, (3) to reconstruct ontogenic lineage relationship during haematopoiesis using epigenomics measurements.
+*Research Areas:*
+~~~
+{}{img_left}{sn-DNAroadmapH.jpg}{}{330}{250}
+[direction1.html Understanding the Biology of Genome in Immune Cells]
+~~~
+
+~~~
+{}{img_left}{Rare_Common_Dz_2.jpg}{}{330}{300}
+[direction2.html Understanding the Biology of Immune-mediated Disease]
+~~~
+
+~~~
+{}{img_left}{patternrecognition.jpg}{}{330}{130}
+[direction3.html Pattern Recognition and Signal Processing Methods in Genomics]
+~~~
 
