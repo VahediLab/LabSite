@@ -1,12 +1,13 @@
 = Pattern Recognition and Signal Processing Methods in Genomics
 
 ~~~
-{}{img_left}{patternrecognition.jpg}{}{360}{300}
+{}{img_left}{MFPT.jpg}{}{360}{360}
 
 Progress in biological science will require adopting systems methods, as engineering has already 
 found useful and necessary in dealing with complexity.
 We will develop computational methods to 
 (a) learn about the characteristics of genomic signals using theories in signal processing, (b) reduce the dimensionality of the genomic data using machine learning techniques, and (c) produce an integrated, multi-layer circuit of the transcriptional response using methods such as Bayesian networks.
+Image from Vahedi, et al, IEEE Transactions on Biomed. Eng. 2008.
 ~~~
 
 == Relevant Publications

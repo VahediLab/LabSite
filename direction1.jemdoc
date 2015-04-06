@@ -1,7 +1,7 @@
 = Understanding the Biology of Genome in Immune Cells
 
 ~~~
-{}{img_left}{sn-DNAroadmapH.jpg}{}{350}{350}
+{}{img_left}{cellpaper.jpg}{}{380}{350}
 
 
 A fundamental property of adaptive immune cells is their ability to elicit a transcriptional response to an immense array of microbial pathogens. 
@@ -19,7 +19,7 @@ Others known signal-dependent transcription factors work on a particular subset 
 and prepare these elements for activation. Through the integration of many layers of genomic information and development of novel computational methods, 
 our lab is interested in (a) delineating transcription factors with hierarchical impacts on enhancer selection, (b) profiling partners of such transcription factors,
 and (c) studying how these proteins shape the enhancer repertoire of various immune cells 
-(Image adopted from illustration in Science Magazine, previously adapted by Lauran Soloman).
+(Image in this page from Vahedi, et al, Cell, 2012. Image in previous page adopted from illustration in Science Magazine, previously adapted by Lauran Soloman).
 ~~~
 
 == Relevant Publications
