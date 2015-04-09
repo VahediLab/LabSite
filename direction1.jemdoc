@@ -1,0 +1,41 @@
+= Understanding the Biology of Genome in Immune Cells
+
+~~~
+{}{img_left}{cellpaper.jpg}{}{380}{350}
+
+
+A fundamental property of adaptive immune cells is their ability to elicit a transcriptional response to an immense array of microbial pathogens. 
+Immunologists typically characterize these specialized cells through the differential expression of cytokine genes. 
+However, a growing body of evidence supports a model in which immune cells extensively utilize unique parts of the genome for shaping their response. 
+Cells from a distinct ontogeny and differentiation stage employ a particular set of 'instructions' to achieve a given transcriptional response. These instructions are referred as regulatory elements or enhancers and are genomic regions located outside protein-coding genes. 
+It has become clear that even cells of the same ontogeny located in distinct tissues would acquire similar transcriptional outcomes 
+but utilize vastly distinct enhancer elements. 
+Despite what we have learned about the differential usage of enhancers in immune cells, 
+it is unclear how these regulatory elements are marked and instructed to be used in a manner that reflects the cell's 
+(a) ontogeny, (b) tissue environment, and (c) extracellular cues. 
+The collaborative and hierarchical binding of transcription factors have been linked to the formation of enhancer repertoire in immune cells. 
+A class of transcription factors known as pioneer factors prepares the genome and primes enhancers for their future activation. 
+Others known signal-dependent transcription factors work on a particular subset of regulatory elements from the large repertoire of potential enhancers 
+and prepare these elements for activation. Through the integration of many layers of genomic information and development of novel computational methods, 
+our lab is interested in (a) delineating transcription factors with hierarchical impacts on enhancer selection, (b) profiling partners of such transcription factors,
+and (c) studying how these proteins shape the enhancer repertoire of various immune cells 
+(Image in this page from Vahedi, et al, Cell, 2012. Image in previous page adopted from illustration in Science Magazine, previously adapted by Lauran Soloman).
+~~~
+
+== Relevant Publications
+- *Vahedi, G.*,  Kanno, Y.,  Sartorelli, V.,  O'Shea, J. J., [http://onlinelibrary.wiley.com/doi/10.1111/imm.12113/abstract 
+"Transcription factors and CD4 T cells seeking identity: masters, minions, setters and spikers"], /Immunology/, 139(3): 294-8, 2013.
+
+- *Vahedi, G.*,  C. Poholek A,  Hand, T. W.,  Laurence, A.,  Kanno, Y.,  O'Shea, J. J.,  Hirahara, K., [http://onlinelibrary.wiley.com/doi/10.1111/imr.12037/abstract 
+"Helper T-cell identity and evolution of differential transcriptomes and epigenomes"],
+/Immunol Rev/, 252(1): 24-40, 2013.
+
+- *Vahedi, G.*,  Takahashi, H.,  Nakayamada, S.,  Sun, H. W.,  Sartorelli, V.,  Kanno, Y.,  O'Shea, J. J., [http://www.cell.com/abstract/S0092-8674%2812%2901297-4 
+"STATs shape the active enhancer landscape of T cell populations"]. /Cell/, 151(5): 981-93, 2012.
+
+- Wei\*, L.,  *Vahedi\*, G.*,  Sun, H. W.,  Watford, W. T.,  Takatori, H.,  
+Ramos, H. L.,  Takahashi, H.,  Liang, J.,  Gutierrez-Cruz, G.,  Zang, C.,  Peng, W.,  O'Shea, J. J.,  Kanno, Y., 
+[http://www.sciencedirect.com/science/article/pii/S1074761310002062 
+"Discrete roles of STAT4 and STAT6 transcription factors in tuning epigenetic modifications and transcription during T helper cell differentiation"],
+/Immunity/, 32(6): 840-51, 2010 Notes: \*equal contributing authors.
+

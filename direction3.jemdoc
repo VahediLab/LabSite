@@ -1,0 +1,28 @@
+= Pattern Recognition and Signal Processing Methods in Genomics
+
+~~~
+{}{img_left}{MFPT.jpg}{}{360}{360}
+
+Progress in biological science will require adopting systems methods, as engineering has already 
+found useful and necessary in dealing with complexity.
+We will develop computational methods to 
+(a) learn about the characteristics of genomic signals using theories in signal processing, (b) reduce the dimensionality of the genomic data using machine learning techniques, and (c) produce an integrated, multi-layer circuit of the transcriptional response using methods such as Bayesian networks.
+Image from Vahedi, et al, IEEE Transactions on Biomed. Eng. 2008.
+~~~
+
+== Relevant Publications
+
+
+- *Vahedi, G.*,  Ivanov, I. V.,  Dougherty, E. R., "Inference of Boolean networks under constraint on bidirectional gene relationships". /IET Syst Biol/, 3(3): 191-202, 2009.
+
+- *Vahedi, G.*,  Faryabi, B.,  Chamberland, J. F.,  Datta, A.,  Dougherty, E. R., [http://www.sciencedirect.com/science/article/pii/S0022519309003889 
+"Sampling-rate-dependent probabilistic Boolean networks"]. /J Theor Biol/, 261(4): 540-7, 2009.
+
+- *Vahedi, G.*,  Faryabi, B.,  Chamberland, J. F.,  Datta, A.,  Dougherty, E. R., 
+[http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4599234 
+"Optimal intervention strategies for cyclic therapeutic methods"],
+/IEEE Trans Biomed Eng/, 56(2): 281-91, 2009.
+
+- *Vahedi, G.*,  Faryabi, B.,  Chamberland, J. F.,  Datta, A.,  Dougherty, E. R., [http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4524953 
+"Intervention in gene regulatory networks via a stationary mean-first-passage-time control policy"],
+/IEEE Trans Biomed Eng/, 55(10): 2319-31, 2008.
