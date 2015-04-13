@@ -10,11 +10,11 @@ However, a growing body of evidence supports a model in which immune cells exten
 Cells from a distinct ontogeny and differentiation stage employ a particular set of 'instructions' to achieve a given transcriptional response. These instructions are referred as regulatory elements or enhancers and are genomic regions located outside protein-coding genes. 
 It has become clear that even cells of the same ontogeny located in distinct tissues would acquire similar transcriptional outcomes 
 but utilize vastly distinct enhancer elements. 
-Despite what we learned about the differential usage of enhancers in immune cells, 
+Despite what we have learned about the differential usage of enhancers in immune cells, 
 it is unclear how these regulatory elements are marked and instructed to be used in a manner that reflects the cell's 
 (a) ontogeny, (b) tissue environment, and (c) extracellular cues. 
 The collaborative and hierarchical binding of transcription factors have been linked to the formation of enhancer repertoire in immune cells. 
-A class of transcription factors known as pioneer factors prepares the genome and prime enhancers for their future activation. 
+A class of transcription factors known as pioneer factors prepares the genome and primes enhancers for their future activation. 
 Others known signal-dependent transcription factors work on a particular subset of regulatory elements from the large repertoire of potential enhancers 
 and prepare these elements for activation. Through the integration of many layers of genomic information and development of novel computational methods, 
 our lab is interested in (a) delineating transcription factors with hierarchical impacts on enhancer selection, (b) profiling partners of such transcription factors,
