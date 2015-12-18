@@ -23,10 +23,10 @@ type="text/javascript"></script>
 
 == Welcome
 
-Golnaz Vahedi is an Assistant Professor at the [http://www.med.upenn.edu/genetics/ Department of Genetics] and a member of the [http://www.med.upenn.edu/ifi/ Institute for Immunology] at the [http://www.med.upenn.edu/ Perelman School of Medicine, University of Pennsylvania]. 
+Golnaz Vahedi is among a handful of scientists blending mathematics, immunology, and computer science to pursue a new understanding of human immunology, 
+one that suggests the mechanisms of immune-mediated diseases are far more complex than anticipated. She is an Assistant Professor at the [http://www.med.upenn.edu/genetics/ Department of Genetics] and a member of the [http://www.med.upenn.edu/ifi/ Institute for Immunology] at the [http://www.med.upenn.edu/ Perelman School of Medicine, University of Pennsylvania]. 
 In May 2015, she started her group after five years of research training with [http://www.niams.nih.gov/research/ongoing_research/branch_lab/Molecular_Immunology_and_Inflammation/default.asp Dr. John O'Shea] 
-at the [http://irp.nih.gov/ NIH]. She is among a handful of scientists blending mathematics, biology and engineering to pursue a new understanding of human biology, 
-one that suggests the mechanisms of human disease are far more complex than anticipated. More specifically, her lab endeavors to understand the biological circuits that underlie cellular processes in immune cells and uncover the molecular basis of major inherited diseases mediated by immune cells. 
+at the [http://irp.nih.gov/ NIH]. Her lab endeavors to understand the biological circuits that underlie cellular processes in immune cells and uncover the molecular basis of major inherited diseases mediated by immune cells. 
 The advent of high throughput genomic and proteomic technologies provides immunologists with vast quantities of rich, high-dimensional data that capture system-wide properties at molecular and cellular resolution. 
 With such technological advances, we have indeed embarked on a new era of immunology. In the face of such a data avalanche, the Vahedi lab will develop computational
 methods to integrate this diverse high throughput data and unravel the basic principles of immunity from a systems level view. 
@@ -50,6 +50,6 @@ methods to integrate this diverse high throughput data and unravel the basic pri
 ~~~
 
 ~~~
-You are welcome to join our weekly [https://github.com/ComputationalJournalClub/CompBioInterestGroup computational journal club] on Mondays 9-10am.
+You are welcome to join our weekly [https://github.com/ComputationalJournalClub/CompBioInterestGroup computational journal club] on Mondays at 9-10am.
 ~~~
 
