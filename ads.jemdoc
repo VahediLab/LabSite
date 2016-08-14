@@ -2,18 +2,15 @@
 = Available Positions:
 
 - Interdisciplinary graduate student positions (IGG, GGR):
-PhD or MD\/PhD students interested in interdisciplinary positions are expected to have dry and wet lab rotations.
-The dry lab rotation will be under the supervision of Dr. Vahedi. Programming experience is preferred but not required.
-The wet lab rotation(s) should be taken with the collaborators of Vahedi's lab either at the University of Pennsylvania or
-the NIH (including but not limited to NIH PIs participating in the [http://www.med.upenn.edu/immun/NIHPartnership.shtml IGG/NIH partnership program]).
-To learn more about faculty members with wet labs interested in such co-mentorship arrangments, send an email to [vahedi@mail.med.upenn.edu].
+PhD or MD\/PhD students interested in interdisciplinary positions are expected to have dry and wet lab rotations. Programming experience is preferred but not required.
 
 - Graduate student positions (GCB, CIS, Bioengineering):
 The general research goal is to develop statistical signal processing and machine learning methods, apply them to analyze high-dimensional genomics data, and generate multiscale causal models.
-We are interested in both practical and theoretical aspects of computational biology.
-Programming experience in Python, R, or C\+\+; and proficiency in Linux are preferred.
+We are interested in both practical and theoretical aspects of computational biology. We are particularly interested in novel tools for the analysis of single-cell ATAC and RNA-seq data generated in the lab using C1 Fluidigm platform. 
+Programming experience in Python, R, or C\+\+, and proficiency in Linux are preferred.
 
-- Postdoctoral position (Computational): The primary research focus will be on developing novel computational methods for the integration of high-dimensional genomics data sets within the context of immune system. 
+- Postdoctoral position (Computational): The primary research focus will be on developing novel computational methods for the integration of high-dimensional genomics data sets 
+both at the single and population level within the context of immune system. 
 We are recruiting creative and enthusiastic recent PhD graduates with a background in statistics, computer science, electrical engineering, or physics. 
 Experience in programming languages such as R, Python and C\+\+; and proficiency in Linux are required.
 Experience in high-dimensional genomic analysis i.e. next-generation sequencing data is preferred. 
