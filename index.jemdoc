@@ -39,6 +39,19 @@ How do we do research?
 We blend epigenomics, human genetics, immunology, and computational biology to pursue a new understanding of human immunology. We generate genome-wide maps of chromatin in relevant immune cells mostly T cells. We are interested in regulators of T cell development and also T cell engagement in autoimmune disorders such as psoriasis and type 1 diabetes. We use population-based assays with strong signal-to-noise ratios such as ChIP-seq, ATAC-seq, and RNA-seq in addition to cutting-edge single-cell assays such as single-cell (sc)ATAC-seq and scRNA-seq. As a result of our computational exerptise, we also harvest the vast troves of big data that immunologists and other researchers are pouring into public repositories. 
 Our data integrations rely on available computational pipelines. Furthermore, we develop novel computational techniques to fully understand the complexity of multidimensional epigenomics datasets in T cells. 
 
+== Rotation Projects 2016-2017. 
+
+1) T cell fate and clonality inference from single-cell transcriptomes. Computational and experimental.
+
+2) Dissecting cellular heterogeneity in T cells using single-cell chromatin accessibility maps and single-cell transcriptomics. Computational and experimental.
+
+3) Novel tools to analyze single-cell chromatin accessibility maps (scATAC-seq). Computational. 
+
+4) Epigenomic mapping of psoriasis. Computational and experimental.
+
+5) Epigenomic mapping of type 1 diabetes. Computational and experimental.
+
+6) Discovery and validation of pioneer factors in immune cells. Computational and experimental.
 
 
 == Research Highlights 
