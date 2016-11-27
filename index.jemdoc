@@ -56,16 +56,13 @@ Our data integrations rely on available computational pipelines. Furthermore, we
 
 == Research Highlights 
 
-~~~
-{}{img_left}{nature.jpg}{}{80}{80}
-- *Vahedi, G.*,  Kanno, Y.,  Furumoto, Y.,  Jiang, K.,  Parker, S. C.,  Erdos, M. R.,  Davis, S. R.,  Roychoudhuri, R.,  Restifo, N. P.,  Gadina, M.,  Tang, Z.,  Ruan, Y.,  Collins, F. S.,  Sartorelli, V.,  O'Shea, J. J.,
-[http://www.nature.com/nature/journal/vaop/ncurrent/full/nature14154.html "Super-enhancers delineate disease-associated regulatory nodes in T cells"]. /Nature/, 2015.
-~~~
+The Vahedi laboratory is equipped with an automated
+solution for single-cell genomics. We have been able to capture a single T cell using this platform and our preliminary data support the feasibility of generating genome-scale chromatin accessibility maps in single T cells 
+(Johnson J, Georgakilas G, et al, In preparation).
 
 ~~~
-{}{img_left}{cell.jpeg}{}{80}{80}
-- *Vahedi, G.*,  Takahashi, H.,  Nakayamada, S.,  Sun, H. W.,  Sartorelli, V.,  Kanno, Y.,  O'Shea, J. J., [http://www.cell.com/abstract/S0092-8674%2812%2901297-4
-"STATs shape the active enhancer landscape of T cell populations"]. /Cell/, 151(5): 981-93, 2012.
+{}{img_left}{singlecell.jpg}{}{1200}{450}
+
 ~~~
 
 ~~~
