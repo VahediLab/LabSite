@@ -57,8 +57,7 @@ Our data integrations rely on available computational pipelines. Furthermore, we
 == Research Highlights 
 
 The Vahedi laboratory is equipped with an automated
-solution for single-cell genomics. We have been able to capture a single T cell using this platform and our preliminary data support the feasibility of generating genome-scale chromatin accessibility maps in single T cells 
-(Johnson J, Georgakilas G, et al, In preparation).
+solution for single-cell genomics. We have been able to capture a single T cell using this platform and our preliminary data support the feasibility of generating genome-scale chromatin accessibility maps in single T cells.
 
 ~~~
 {}{img_left}{singlecell.jpg}{}{1200}{450}
