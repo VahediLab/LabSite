@@ -58,10 +58,12 @@ This [http://science.sciencemag.org/content/356/6333/106?utm_source=sciencemagaz
 
 == Research Highlights 
 
-The Vahedi laboratory is equipped with an automated microfluidic
-solution for single-cell genomics. We are able to capture single T cells (x96) using this platform; 
-our preliminary data support the feasibility of generating genome-scale chromatin accessibility maps (single-cell ATAC-seq) 
-in single T cells.
+The Vahedi laboratory with dual memberships in the "Institute for Immunology" and the "Epigenetics Institute" has access to C1 Fluidigm and 10xGenomics machines in addition to NextSeq Illumina sequencers to perform bulk and single cell genomic analysis of the immune system. We (i.e. Maria Fasolino in collaborations with Faryabi and Pear labs) recently adopted
+the [http://www.nature.com/nmeth/journal/v13/n11/full/nmeth.3999.html?foxtrotcallback=true HiChIP] protocol in the lab; we can now generate high quality 3D chromatin conformation data in primary T cells during development.
+ 
+~~~
+{}{img_left}{plotHiCFragment_rawdata.jpg}{HiChIP}{480}{400}
+~~~
 
 ~~~
 Trainees are welcome to join our weekly [https://github.com/VahediLab/ComputationalJournalClub/blob/master/Schedule.md computational journal club] on Fridays at 5pm (305 BRB).
