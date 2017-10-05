@@ -2,13 +2,7 @@
 = Home
 
 ~~~
-{}{img_left}{DSC_0120.JPG}{Golnaz Vahedi}{170}{175}
-Assistant Professor \n [http://www.med.upenn.edu/genetics/ Department of Genetics] \n
-[http://www.med.upenn.edu/ifi/ Institute for Immunology] \n
-[https://hosting.med.upenn.edu/epigenetics/ Epigenetics Institute] \n
-[http://www.med.upenn.edu/ Perelman School of Medicine]\n
-[http://www.upenn.edu/ University of Pennsylvania]\n
-vahedi at mail.med.upenn.edu
+{}{img_left}{IMG_3199.JPG}{Golnaz Vahedi}{900}{675}
 ~~~
 
 ~~~
@@ -24,7 +18,9 @@ type="text/javascript"></script>
 
 == Welcome
 
-The Vahedi laboratory is multidisciplinary, integrating computational and experimental approaches to develop a single to collective cell understanding of gene regulation in immune cells in health and disease. 
+The Vahedi laboratory is at the [http://www.med.upenn.edu/genetics/ Department of Genetics], [http://www.med.upenn.edu/ Perelman School of Medicine],
+at the [http://www.upenn.edu/ University of Pennsylvania]. We are also members of the [http://www.med.upenn.edu/ifi/ Institute for Immunology] and
+[https://hosting.med.upenn.edu/epigenetics/ Epigenetics Institute]. Our laboratory is multidisciplinary, integrating computational and experimental approaches to develop a single to collective cell understanding of gene regulation in immune cells in health and disease. 
 
 What do we do? 
 
@@ -39,21 +35,25 @@ How do we do research?
 We blend epigenomics, human genetics, immunology, and computational biology to pursue a new understanding of human immunology. We generate genome-wide maps of chromatin in relevant immune cells mostly T cells. We are interested in regulators of T cell development and also T cell engagement in autoimmune disorders such as psoriasis and type 1 diabetes. We use population-based assays with strong signal-to-noise ratios such as ChIP-seq, ATAC-seq, and RNA-seq in addition to cutting-edge single-cell assays such as single-cell (sc)ATAC-seq and scRNA-seq. As a result of our computational expertise, we also harvest the vast troves of big data that immunologists and other researchers are pouring into public repositories. 
 Our data integrations rely on available computational pipelines. Furthermore, we develop novel computational techniques to fully understand the complexity of multidimensional epigenomics datasets in T cells. 
 
-== Rotation Projects 2016-2017. 
+== Rotation Projects 2017-2018. 
 
 This [http://science.sciencemag.org/content/356/6333/106?utm_source=sciencemagazine&utm_medium=twitter&utm_campaign=6333issue-12225 article] very nicely summarizes our lab's philosophy and the kind of rotation projects available for students. 
 
-1) T cell fate and clonality inference from single-cell transcriptomes. Computational and experimental.
+1) Deciphering 3D genomic reorganization in T cell development and immune activation. Computational and experimental.
 
-2) Dissecting cellular heterogeneity in T cells using single-cell chromatin accessibility maps and single-cell transcriptomics. Computational and experimental.
+2) Delineating transcription factors with key roles in 3D genomic organization of T cells. Computational and experimental.
 
-3) Novel tools to analyze single-cell chromatin accessibility maps (scATAC-seq). Computational. 
+3) Exploiting natural genetic variations in multiple mouse strains to decipher transcription factor grammar in T cell development. Computational and experimental.
 
-4) Epigenomic mapping of psoriasis. Computational and experimental.
+4) T cell fate and clonality inference from single-cell transcriptomes. Computational and experimental.
 
-5) Epigenomic mapping of type 1 diabetes. Computational and experimental.
+5) Novel tools to analyze single-cell chromatin accessibility maps (scATAC-seq). Computational. 
 
-6) Discovery and validation of pioneer factors in immune cells. Computational and experimental.
+6) Epigenomic mapping of psoriasis. Computational and experimental.
+
+7) Epigenomic mapping of type 1 diabetes. Computational and experimental.
+
+8) Discovery and validation of pioneer factors in immune cells. Computational and experimental.
 
 
 == Research Highlights 
@@ -66,6 +66,6 @@ the [http://www.nature.com/nmeth/journal/v13/n11/full/nmeth.3999.html?foxtrotcal
 ~~~
 
 ~~~
-Trainees are welcome to join our weekly [https://github.com/VahediLab/ComputationalJournalClub/blob/master/Schedule.md computational journal club] on Fridays at 5pm (305 BRB).
+Trainees are welcome to join our weekly [https://github.com/VahediLab/ComputationalJournalClub/blob/master/Schedule.md computational journal club] on Fridays at 4pm (301 BRB).
 ~~~
 
