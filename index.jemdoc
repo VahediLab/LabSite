@@ -2,7 +2,7 @@
 = Home
 
 ~~~
-{}{img_left}{IMG_3199.JPG}{Golnaz Vahedi}{900}{675}
+{}{img_left}{IMG_3191.JPG}{Golnaz Vahedi}{900}{675}
 ~~~
 
 ~~~
@@ -39,9 +39,9 @@ Our data integrations rely on available computational pipelines. Furthermore, we
 
 This [http://science.sciencemag.org/content/356/6333/106?utm_source=sciencemagazine&utm_medium=twitter&utm_campaign=6333issue-12225 article] very nicely summarizes our lab's philosophy and the kind of rotation projects available for students. 
 
-1) Deciphering 3D genomic reorganization in T cell development and immune activation. Computational and experimental.
+1) Deciphering the 3D genome reorganization during T cell development and after immune activation. Computational and experimental.
 
-2) Delineating transcription factors with key roles in 3D genomic organization of T cells. Computational and experimental.
+2) Delineating transcription factors with key roles in the 3D genomic organization of T cells. Computational and experimental.
 
 3) Exploiting natural genetic variations in multiple mouse strains to decipher transcription factor grammar in T cell development. Computational and experimental.
 
@@ -49,16 +49,18 @@ This [http://science.sciencemag.org/content/356/6333/106?utm_source=sciencemagaz
 
 5) Novel tools to analyze single-cell chromatin accessibility maps (scATAC-seq). Computational. 
 
-6) Epigenomic mapping of psoriasis. Computational and experimental.
+6) Novel tools to decipher transcription factor grammar from sequence and epigenomics data using machine learning. Computational.
 
-7) Epigenomic mapping of type 1 diabetes. Computational and experimental.
+7) Epigenomic mapping of psoriasis. Computational and experimental.
 
-8) Discovery and validation of pioneer factors in immune cells. Computational and experimental.
+8) Epigenomic mapping of type 1 diabetes. Computational and experimental.
+
+9) Discovery and validation of transcription factors shaping chromatin accessibility landscapes in immune cells. Computational and experimental.
 
 
 == Research Highlights 
 
-The Vahedi laboratory with dual memberships in the "Institute for Immunology" and the "Epigenetics Institute" has access to C1 Fluidigm and 10xGenomics machines in addition to NextSeq Illumina sequencers to perform bulk and single cell genomic analysis of the immune system. We (i.e. Maria Fasolino in collaborations with Faryabi and Pear labs) recently adopted
+The Vahedi laboratory with dual memberships in the "Institute for Immunology" and the "Epigenetics Institute" has access to C1 Fluidigm and 10xGenomics machines in addition to NextSeq Illumina sequencers to perform bulk and single cell genomic analysis of the immune system. We recently adopted
 the [http://www.nature.com/nmeth/journal/v13/n11/full/nmeth.3999.html?foxtrotcallback=true HiChIP] protocol in the lab; we can now generate high quality 3D chromatin conformation data in primary T cells during development.
  
 ~~~
