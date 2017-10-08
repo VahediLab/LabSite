@@ -18,13 +18,14 @@ type="text/javascript"></script>
 
 == Welcome
 
-The Vahedi laboratory is at the [http://www.med.upenn.edu/genetics/ Department of Genetics], [http://www.med.upenn.edu/ Perelman School of Medicine],
+The Vahedi laboratory is part of the [http://www.med.upenn.edu/genetics/ Department of Genetics], [http://www.med.upenn.edu/ Perelman School of Medicine],
 at the [http://www.upenn.edu/ University of Pennsylvania]. We are also members of the [http://www.med.upenn.edu/ifi/ Institute for Immunology] and
-[https://hosting.med.upenn.edu/epigenetics/ Epigenetics Institute]. Our laboratory is multidisciplinary, integrating computational and experimental approaches to develop a single to collective cell understanding of gene regulation in immune cells in health and disease. 
+[https://hosting.med.upenn.edu/epigenetics/ Epigenetics Institute]. 
+Our laboratory is multidisciplinary, integrating computational and experimental approaches to develop a single to collective cell understanding of gene regulation in immune cells. 
 
-What do we do? 
+What is our goal? 
 
-We exploit the epigenomics mapping of immune cells to understand the biological circuits that underlie immune responses and uncover the molecular basis of major inherited diseases mediated by these cells. Immune-mediated disorders such as psoriasis and type 1 diabetes result from a complex interplay of genetic and environmental factors. By mapping the epigenomic alterations associated with immune-mediated diseases, we aim to further our understanding of the role of environment in triggering autoimmunity.
+The overarching goal of our hybrid wet and dry laboratory is to exploit changes in the epigenome in addition to mouse and human genetics to further our understanding of gene regulation in T cells in health and disease. 
 
 Why epigenomics? 
 
@@ -32,7 +33,12 @@ Information encoded in DNA is interpreted, modified, and propagated as chromatin
 
 How do we do research?
 
-We blend epigenomics, human genetics, immunology, and computational biology to pursue a new understanding of human immunology. We generate genome-wide maps of chromatin in relevant immune cells mostly T cells. We are interested in regulators of T cell development and also T cell engagement in autoimmune disorders such as psoriasis and type 1 diabetes. We use population-based assays with strong signal-to-noise ratios such as ChIP-seq, ATAC-seq, and RNA-seq in addition to cutting-edge single-cell assays such as single-cell (sc)ATAC-seq and scRNA-seq. As a result of our computational expertise, we also harvest the vast troves of big data that immunologists and other researchers are pouring into public repositories. 
+We blend epigenomics, human and mouse genetics, immunology, and computational biology to pursue a new understanding of gene regulation in the immune system. 
+We generate genome-wide maps of chromatin in T lymphocytes. 
+We are interested in regulators of T cell development and also T cell engagement in autoimmune disorders such as psoriasis and type 1 diabetes. 
+We use bulk assays such as ChIP-seq, HiChIP, ATAC-seq, and RNA-seq in addition to cutting-edge single-cell assays such as single-cell (sc)ATAC-seq and scRNA-seq. We 
+take advantage of natural genetic variation as an in vivo mutagenesis screen to assess the genome-wide effects of sequence variation on transcription factor binding, epigenomics and transcriptional outcomes in primary T cells.
+As a result of our computational expertise, we also harvest the vast troves of big data that immunologists and other researchers are pouring into public repositories. 
 Our data integrations rely on available computational pipelines. Furthermore, we develop novel computational techniques to fully understand the complexity of multidimensional epigenomics datasets in T cells. 
 
 == Rotation Projects 2017-2018. 
@@ -60,8 +66,10 @@ This [http://science.sciencemag.org/content/356/6333/106?utm_source=sciencemagaz
 
 == Research Highlights 
 
-The Vahedi laboratory with dual memberships in the "Institute for Immunology" and the "Epigenetics Institute" has access to C1 Fluidigm and 10xGenomics machines in addition to NextSeq Illumina sequencers to perform bulk and single cell genomic analysis of the immune system. We recently adopted
-the [http://www.nature.com/nmeth/journal/v13/n11/full/nmeth.3999.html?foxtrotcallback=true HiChIP] protocol in the lab; we can now generate high quality 3D chromatin conformation data in primary T cells during development.
+The Vahedi laboratory with dual memberships in the [http://www.med.upenn.edu/ifi/ Institute for Immunology] and
+[https://hosting.med.upenn.edu/epigenetics/ Epigenetics Institute] has access to C1 Fluidigm and 10xGenomics machines in addition to NextSeq Illumina sequencers to perform bulk and single cell genomic analysis of the immune system. We recently adopted
+the [http://www.nature.com/nmeth/journal/v13/n11/full/nmeth.3999.html?foxtrotcallback=true HiChIP] protocol in the lab. With this high resolution assay, we can now assess the 3D genome reorganization
+of T cells as they develop in the thymus or after they encounter antigens in the periphery.
  
 ~~~
 {}{img_left}{HiChIP_K27ac_NOD.jpg}{HiChIP}{650}{200}
