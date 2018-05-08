@@ -1,8 +1,10 @@
 # jemdoc: menu{MENU}{pub.html}
 == Publications ([https://scholar.google.com/citations?user=SnxdkWMAAAAJ&hl=en Google Scholar])
 
-== Original Articles
+== Preprints
 
+. *Cai S.*, *Georgakilas G.*, *Johnson J.L.*, *Vahedi G.*. [https://www.biorxiv.org/content/early/2018/05/04/315028 "A cosine similarity-based method to infer variability of chromatin accessibility at the single-cell level"], bioRxiv, 315028. May 2018.
+== Original Articles
 . *Johnson\* J.L.*, *Georgakilas\* G.*, Petrovic\* J., Kurachi M., *Cai S.*, Harly C., Pear W.S., Bhandoola A., Wherry E.J., *Vahedi G.* [http://www.cell.com/immunity/fulltext/S1074-7613(18)30033-5 "Lineage-determining transcription factor TCF-1 initiates the epigenetic identity of T cell development"], /Immunity/, February 2018, \* equal contributions. 
 Featured [http://www.cell.com/immunity/issue?pii=S1074-7613(17)X0003-4 on the cover], received [http://www.cell.com/immunity/fulltext/S1074-7613(18)30040-2 News and Views], highlighted [https://www.nature.com/articles/s41590-018-0077-3 in /Nature Immunology/], and discussed in [https://www.pennmedicine.org/news/news-releases/2018/february/icebreaker-protein-opens-genome-for-t-cell-development-penn-researchers-find a Press Release]. 
 . Johnson, B.S., Zhao, Y., *Fasolino, M.*, Lamonica, J.M, Kim, Y.J., *Georgakilas, G.*, Wood, K.H., Bu, D., Cui, Y., Goffin, D., *Vahedi, G.*, Kim, T.H., Zhou, Z., [https://www.ncbi.nlm.nih.gov/pubmed/28920956 "Biotin tagging of MeCP2 reveals contextual insights into the Rett syndrome transcriptome"], /Nature Medicine/, September 2017.
