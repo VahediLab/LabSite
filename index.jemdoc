@@ -1,7 +1,5 @@
 # jemdoc: menu{MENU}{index.html}
 
-== 
-
 == Welcome
 
 The Vahedi laboratory is part of the [http://www.med.upenn.edu/genetics/ Department of Genetics], [http://www.med.upenn.edu/ Perelman School of Medicine],
@@ -49,6 +47,15 @@ This [http://science.sciencemag.org/content/356/6333/106?utm_source=sciencemagaz
 
 9) Discovery and validation of transcription factors shaping chromatin accessibility landscapes in immune cells. Computational and experimental.
 
+== Research Highlights 
+
+The Vahedi laboratory has access to C1 Fluidigm and 10xGenomics machines in addition to NextSeq Illumina sequencers to perform bulk and single cell genomic analysis of the immune system. We recently adopted
+the [http://www.nature.com/nmeth/journal/v13/n11/full/nmeth.3999.html?foxtrotcallback=true HiChIP] protocol in the lab. With this high resolution assay, we can now assess the 3D genome reorganization
+of T cells as they develop in the thymus or after they encounter antigens in the periphery.
+
+~~~
+{}{img_left}{HiChIP.jpg}{HiChIP}{850}{440}
+~~~
 
 ~~~
 Trainees are welcome to join our weekly [https://github.com/VahediLab/ComputationalJournalClub/blob/master/Schedule.md computational journal club] on Fridays at 4pm (301 BRB).
