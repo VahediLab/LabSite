@@ -54,36 +54,34 @@ Biology in the 21st century is arguably the most data-rich science of the most
 intricately regulated dynamical systems that any discipline
 has to offer. We view quantitative and computational
 biology as intrinsic parts of the biological discipline. Our lab has an efficient and 
-cohesive environment for trainees with no computational backgrounds to get familiar with programming and 
+cohesive environment for trainees with molecular or cell biology backgrounds to get familiar with programming and 
 standard genomics pipelines. Trainees with previous computational expertise will be immersed in biological problems 
 with significant implications in human health and disease. They are able to 
 devise novel methods generating new hypotheses which can be further tested in the wet lab using genetic approaches.
 
 ~~~
-== List of Projects 2018-2019 (Rotation, Thesis, Postdoc). 
+== List of Projects 2018-2019 (Rotation, Thesis, Postdoc)
 
 This [http://science.sciencemag.org/content/356/6333/106?utm_source=sciencemagazine&utm_medium=twitter&utm_campaign=6333issue-12225 article] very nicely summarizes our lab's philosophy and the kind of projects available for trainees. 
 
-1) How is the 3D genome reorganized during T cell development and after immune activation?
+1) How is the 3D genome reorganized in T cells after activation?
 
-2) Which transcription factors play key roles in the 3D genomic organization of T cells? 
+2) Which transcription factors play key roles organizing the 3D chromatin architecture of T cells? 
 
 3) Exploiting natural genetic variations in multiple mouse strains to decipher transcription factor grammar in T cell development. 
-
-4) T cell fate and clonality inference from single-cell transcriptomes. 
 
 5) Novel tools to decipher transcription factor grammar from sequence and epigenomics data using machine learning.
 
 6) What are the epigenetic mechanisms through which the transcription factor TCF-1 opens the chromatin in T cells? (PMID: 29466756)
 
-7) Deciphering the contributions of genetics and epigenetics to type 1 diabetes development.
+7) Deciphering the contributions of genetics and epigenetics in type 1 diabetes development.
 
 8) Can viruses change the 3D genome organization of infected host cells?
 
 ~~~
 
 ~~~
-{}{img_left}{funding_2018.jpg}{}{600}{200}
+{}{img_left}{funding_2018.jpg}{}{530}{200}
 ~~~
 
 ~~~
