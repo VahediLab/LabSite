@@ -43,9 +43,7 @@ or suppress their function. Reprogramming T cells at will using genetic and epig
 ~~~
 {}{raw}
 
-We measure epigenomic modifications of the linear genome using bulk assays such as ChIP-seq and ATAC-seq. The three-dimensional (3D) organization of the genome also plays a crucial role in carrying out the instructions encoded in its linear sequence.  We create high-resolution maps of 3D genome interactions in primary T cells using HiChiP which only requires hundred thousand cells. Our lab invested in single-cell technology and we were the first to publish maps of chromatin accessibility at the single-cell level. We take advantage of natural genetic variation as an in vivo mutagenesis screen to assess the genome-wide effects of sequence variation on transcription factor binding, epigenomics and transcriptional outcomes in primary T cells.
-
-As a result of our computational expertise, we also harvest the vast troves of big data that immunologists and other researchers are pouring into public repositories. Our data integrations rely on available computational pipelines. Furthermore, we develop novel computational techniques to fully understand the complexity of multidimensional epigenomics datasets in T cells.
+We measure epigenomic modifications of the linear genome using bulk assays such as ChIP-seq and ATAC-seq. The three-dimensional (3D) organization of the genome also plays a crucial role in carrying out the instructions encoded in its linear sequence. We create high-resolution maps of 3D genome interactions in primary T cells using HiChiP which only requires hundred thousand cells. Our lab invested in single-cell technology and we were the first to publish maps of chromatin accessibility at individual T cells. We take advantage of natural genetic variation as an in vivo mutagenesis screen to assess the genome-wide effects of sequence variation on transcription factor binding, 3D genome organization, and transcriptional outcomes in primary T cells. As a result of our computational expertise, we also harvest the vast troves of big data that immunologists and other researchers are pouring into public repositories. Our data integrations rely on available computational pipelines. Furthermore, we develop novel computational techniques to fully understand the complexity of multidimensional epigenomics datasets in T cells.
 
 ~~~
 \n *What is our training goal?*
@@ -60,25 +58,19 @@ with significant implications in human health and disease. They are able to
 devise novel methods generating new hypotheses which can be further tested in the wet lab using genetic approaches.
 
 ~~~
-== List of Projects 2018-2019 (Rotation, Thesis, Postdoc)
+== List of Projects 2019-2020 (Rotation, Thesis, Postdoc)
 
 This [http://science.sciencemag.org/content/356/6333/106?utm_source=sciencemagazine&utm_medium=twitter&utm_campaign=6333issue-12225 article] very nicely summarizes our lab's philosophy and the kind of projects available for trainees. 
 
-1) Prediction of CAR T cell integration sites.
+1) What are the epigenetic mechanisms through which the transcription factor TCF-1 creates accessible chromatin in T cells? (PMID: 29466756) 
 
-2) How is the 3D genome reorganized in T cells after activation?
+2) How does chimeric antigen receptor (CAR) integration change the linear and 3D genome organization of T cells?
 
-3) Which transcription factors play key roles organizing the 3D chromatin architecture of T cells? 
+3) How is lineage-restricted 3D genome organization established in T cells?
 
-4) Exploiting natural genetic variations in multiple mouse strains to decipher transcription factor grammar in T cell development. 
+4) Exploiting natural genetic variations in multiple mouse strains to decipher transcription factor grammar in T cell development.
 
-5) Novel tools to decipher transcription factor grammar from sequence and epigenomics data using machine learning.
-
-6) What are the epigenetic mechanisms through which the transcription factor TCF-1 opens the chromatin in T cells? (PMID: 29466756)
-
-7) Deciphering the contributions of genetics and epigenetics in type 1 diabetes development.
-
-8) Can viruses change the 3D genome organization of infected host cells?
+5) How can common genetic variations associated with type 1 diabetes change the 3D genome organization of T cells?
 
 ~~~
 
