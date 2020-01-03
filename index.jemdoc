@@ -25,18 +25,9 @@ Our laboratory is multidisciplinary, integrating computational and cutting-edge 
 \n *What is the goal of our research?* 
 ~~~
 {}{raw}
-The overarching goal of our hybrid wet and dry laboratory is to exploit the epigenome in addition to mouse and human genetics to understand how T cell identity is determined during development and after immune
-activation. Why the epigenome? Information encoded in DNA is interpreted, modified, and propagated as chromatin. The diversity of inputs encountered by immune cells demands a matching capacity for transcriptional outcomes provided by the combinatorial and dynamic nature of epigenetic processes. Advances in genome editing and genome-wide analyses have revealed unprecedented complexity of chromatin pathways involved in the immune response, offering explanations to long-standing questions and presenting new challenges. 
+In every single cell in the human body, the six feet of DNA is compacted in the micrometer space of the nucleus by wrapping around spools called nucleosomes in addition to extraordinary three-dimensional folding of DNA inside the nucleus. Tissue-specific decoding of the genetic information from this extreme compression is orchestrated by specialized proteins capable of binding DNA in a sequence-specific manner. Locally, a number of proteins called lineage-determining transcription factors can access their binding sites even if they are partially occluded by nucleosomes, recruiting chromatin-remodeling enzymes and exposing the underlying DNA. Globally, sequence-specific proteins such as CTCF act as structural regulators of spatial genome organization. Considering that every two human genomes contain more than 6 million nucleotide differences and the fact that genetics is a major determinant of susceptibility to common diseases, it is essential to understand how the packaging of DNA inside the nucleus becomes resilient or susceptible to diseases due to large numbers of sequence variation. The overarching goal of my laboratory is to understand the molecular mechanisms through which genomic information in our immune cells is interpreted in normal development and further dissect how common genetic variation can lead to misinterpretation of the genetic material in immune-mediated diseases, particularly autoimmune disorders. The multidisciplinary nature of our laboratory allows us to exploit computational and cutting-edge experimental approaches and generate unbiased maps of genome organization in primary immune cells in humans and mice. We further follow our hypothesis-generating yet unbiased efforts with experiments dissecting the mechanisms of our predictions using genome editing in mice or cell lines which provides us with an unparalleled opportunity to rigorously define the link between genetics and chromatin organization in complex diseases such as autoimmunity.
 ~~~
 
-\n *Why is this an important goal?*
-~~~
-{}{raw}
-
-Mechanistic and comprehensive studying of factors controlling T cell's fate through the epigenome can be used to reprogram T cells to enhance 
-or suppress their function. Reprogramming T cells at will using genetic and epigenetic engineering can have signficant implications in cancer or autoimmune diseases such as psoriasis and type 1 diabetes.
-
-~~~
 
 \n *How do we do research?*
 
@@ -51,11 +42,7 @@ We measure epigenomic modifications of the linear genome using bulk assays such 
 Biology in the 21st century is arguably the most data-rich science of the most
 intricately regulated dynamical systems that any discipline
 has to offer. We view quantitative and computational
-biology as intrinsic parts of the biological discipline. Our lab has an efficient and 
-cohesive environment for trainees with molecular or cell biology backgrounds to get familiar with programming and 
-standard genomics pipelines. Trainees with previous computational expertise will be immersed in biological problems 
-with significant implications in human health and disease. They are able to 
-devise novel methods generating new hypotheses which can be further tested in the wet lab using genetic approaches.
+biology as intrinsic parts of the biological discipline. 
 
 ~~~
 == List of Projects 2019-2020 (Rotation, Thesis, Postdoc)
@@ -77,9 +64,6 @@ This [http://science.sciencemag.org/content/356/6333/106?utm_source=sciencemagaz
 
 ~~~
 
-~~~
-Trainees are welcome to join our weekly [https://github.com/VahediLab/ComputationalJournalClub/blob/master/Schedule.md computational journal club] on Fridays at 4pm (301 BRB).
-~~~
 
 ~~~
 {}{raw}
