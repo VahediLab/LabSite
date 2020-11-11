@@ -1,5 +1,5 @@
-# jemdoc: menu{MENU}{index.html}
-= New Website
+# jemdoc: {index.html}
+= New Vahedi Lab Website
 
 [https://vahedilab.com/ Check our new website!] 
 
